@@ -1,0 +1,63 @@
+<html>
+<head>
+    <title>Web Development</title>
+    <style>
+        body{
+            border: 5px solid yellow;
+            text-align: center;
+        }
+        .center {
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+</head>
+<body>
+<h1>Student Registration Form</h1>
+<form action="">
+    <table  class="center">
+        <tr>
+            <td>
+                <label for="name">Name:</label>
+            </td>
+            <td>
+                <input type="text" id="name" name="name">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="age">Age:</label>
+            </td>
+            <td>
+                <input type="number" id="age" name="age">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="add">Address:</label>
+            </td>
+            <td>
+                <textarea id="add" name="add"></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="dept">Department</label>
+            </td>
+            <td>
+                <select id="dept" name="dept">
+                    <option>--None--</option>
+                    <option value="PHP">PHP</option>
+                    <option value="laravel">Laravel</option>
+                    <option value="js">JavaScript</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td> <input type="submit" value="Submit"></td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>

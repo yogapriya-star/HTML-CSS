@@ -1,0 +1,79 @@
+<html>
+<head>
+    <title>CSS-Positioning</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 10%; /* Set a width for your container */
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .box1{
+            background-color: pink;
+            width: 200px;
+            height: 200px;
+            position: relative;
+        }
+        .img1{
+            width: 25px;
+            position: absolute;
+            right:185px;
+            bottom:100px;
+        }
+        .img2{
+            width: 23px;
+            position: absolute;
+            left: 185px;
+            bottom:100px;
+        }
+        .img3{
+            width: 15px;
+            position: absolute;
+            left: 60px;
+            bottom:10px;
+        }
+        .img4{
+            width: 15px;
+            position: absolute;
+            left: 80px;
+            bottom:10px;
+        }
+        .img5{
+            width: 15px;
+            position: absolute;
+            left: 100px;
+            bottom:10px;
+        }
+        .img6{
+            width: 15px;
+            position: absolute;
+            left: 120px;
+            bottom:10px;
+        }
+        h2{
+            padding: 10px;
+            position: absolute;
+            left: 80px;
+            bottom:90px;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="box1">
+        <img class="img1" src="images/back.png" alt="back-button">
+        <h2>1</h2>
+        <img class="img2" src="images/next.png" alt="next-button">
+        <img class="img3" src="images/circle.png" alt="circle-button">
+        <img class="img4" src="images/circle.png" alt="circle-button">
+        <img class="img5" src="images/circle.png" alt="circle-button">
+        <img class="img6" src="images/circle.png" alt="circle-button">
+    </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.nav{
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin:20px;
+    padding: 20px;
+}
+nav p{
+    color: grey;
+}
+.container{
+    padding: 50px;
+}
+.section-part{
+    text-align: center;
+}
+.section-one, .section-two, .section-three, .section-four{
+    color: black;
+    margin-left: 40px;
+    padding: 10px;
+    display: inline-block;
+    width: 200px;
+    border: solid black 1px;
+    vertical-align: top;
+}
+.section-one button, .section-two button, .section-three button, .section-four button{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border: none;
+}
+h2{
+    font-size: 15px;
+}
+
+.section-five{
+    margin:20px;
+    background-color: black;
+    color: white;
+    padding: 50px;
+    text-align: center;
+}
+
+.table {
+    color: white;
+    text-align: center;
+    display: inline;
+
+}
+.contact-form__input{
+    border: none;
+    border-bottom: solid black 1px;
+}
+.contact-form__submit{
+    border: none;
+    background-color: yellow;
+    display: inline-block;
+    color: black;
+    width: 30%;
+    padding: 5px;
+}
+
+

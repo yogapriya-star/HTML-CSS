@@ -1,0 +1,35 @@
+<html>
+<head>
+    <title>CSS-Media</title>
+    <style>
+        .navbar{
+            background-color: black;
+            padding: 5px;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .navbar-links{
+            display: flex;
+            gap: 10px;
+        }
+
+        @media screen and (max-width: 600px){
+            .navbar-links{
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="navbar">
+    <h1>Hello</h1>
+    <div class="navbar-links">
+        <p>Home</p>
+        <p>About Us</p>
+        <p>Contact Us</p>
+    </div>
+</div>
+</body>
+</html>

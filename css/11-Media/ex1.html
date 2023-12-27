@@ -1,0 +1,35 @@
+<html>
+<head>
+    <title>CSS-Media</title>
+    <style>
+        /*
+            max-width --> 0 to 800px
+            highest value for max-width should be taken first
+        */
+        @media screen and (max-width:800px){
+            h1{
+                color: green;
+            }
+        }
+
+        /*
+            max-width --> 0 to 600px
+        */
+        @media screen and (max-width:600px){
+            h1{
+                color: red;
+            }
+        }
+        @media print {
+            h1{
+                color: blue;
+            }
+        }
+    </style>
+</head>
+<body>
+<div>
+    <h1>Hello</h1>
+</div>
+</body>
+</html>
