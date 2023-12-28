@@ -17,7 +17,7 @@ Welcome to the HTML and CSS tutorial! In this tutorial, you will learn the funda
 1. Clone the repository:
    ```bash
    git clone https://github.com/yogapriya-star/html-css-tutorial.git
-``
+
 
 ## Tutorial Overview
 
