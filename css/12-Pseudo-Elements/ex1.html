@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="style.css">
+
+        <title>Pseudo-Elements</title>
+    </head>
+    <body>
+        <header>
+            <h1>Application Form</h1>
+            <form>
+                <label for="name">Name</label>
+                <input  id="name" name="name" type="text" autocomplete="name">
+                <label for="country">Country</label>
+                <input  id="country" name="country" type="text"  autocomplete="country-name">
+                <label for="emp">Employed</label>
+                <select id="emp" name="emp" disabled>
+                    <option selected>Choose...</option>
+                    <option>No</option>
+                    <option>Yes</option>
+                </select>
+                <p>Gender</p>
+                <label>
+                    <input name="origin" type="radio" value="male" checked />
+                    Male
+                </label>
+                <label>
+                    <input name="origin" type="radio" value="female" />
+                    Female
+                </label>
+                <p>Skills</p>
+                <label>
+                    <input name="skills" type="checkbox" checked />
+                    HTML
+                </label>
+                <label>
+                    <input name="skills" type="checkbox" />
+                    CSS
+                </label>
+                <label>
+                    <input name="skills" type="checkbox" />
+                    JS
+                </label>
+                <label for="resume">Resume</label>
+                <input name="resume" type="file" id="resume">
+
+                <button type="submit">Submit</button>
+            </form>
+        </header>
+    <hr>
+    <section class="section-2">
+        <div class="div-2-1">
+            hello div-2-1
+            <div class="div-2-2">Hello div-2-2</div>
+        </div>
+    </section>
+    <hr>
+    <section class="section-3">
+        <div class="div-3-1">
+            <q>Some quotes</q>, he said, <q>are better than more.</q>
+        </div>
+        <div class="hamburger-menu">
+            <span></span>
+        </div>
+    </section>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+        <a href="#">Social</a>
+    </nav>
+    </body>
+</html>

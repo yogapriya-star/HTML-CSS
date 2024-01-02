@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+form{
+    margin: 2rem;
+    font-size: 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+input:autofill{
+    border: 3px solid darkorange;
+}
+h1{
+    text-align: center;
+}
+
+*:enabled{
+    background-color: #eee;
+}
+
+form:read-only{
+    font-weight: bold;
+    color: green;
+}
+
+a:read-write{
+    background-color: ivory;
+    border: 2px solid darkorange;
+}
+
+input:checked{
+    border: none;
+    outline: 2px solid deeppink;
+}
+
+.section-2{
+    margin-top: 2rem;
+    height: 200px;
+}
+
+.div-2-1{
+    height: 100px;
+    background-color: lightsalmon;
+    font-size: 2rem;
+}
+
+.div-2-2{
+    height: 50px;
+    background-color: lightskyblue;
+}
+
+.div-2-1:hover{
+    background-color: darkolivegreen;
+    cursor: pointer;
+}
+
+.div-2-2:hover{
+    background-color: darkorchid;
+    cursor: crosshair;
+}
+
+.div-3-1{
+    font-size: 1.5rem;
+    margin: 1rem;
+}
+
+q::before{
+    content: ">>";
+    color: blue;
+}
+
+q::after{
+    content: "**";
+    color: red;
+}
+
+.div-3-1::selection{
+    background-color: green;
+    color: white;
+}
+
+.hamburger-menu{
+    width: 40px;
+    height: 30px;
+    margin-left: 10px;
+    background-color: darkblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.hamburger-menu span{
+    width: 30px;
+    height: 2px;
+    background-color: #ccc;
+    position: relative;
+    display: block;
+}
+
+.hamburger-menu span::before, .hamburger-menu span::after{
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 2px;
+    background-color: #ccc;
+}
+
+.hamburger-menu span::before{
+    top: -8px;
+}
+
+.hamburger-menu span::after{
+    bottom: -8px;
+}
+
+nav{
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom-color 0.3s ease;
+}
+
+nav a:hover{
+    border-color: #fff;
+}
